@@ -1,6 +1,13 @@
 import React from 'react';
 
 class SearchBar extends React.Component{
+    state = {
+        searchVal: '',
+
+    };
+
+
+
 
     render(){
         return (
@@ -10,7 +17,7 @@ class SearchBar extends React.Component{
                     <label>
                         Video Search
                     </label>
-                    <input type="text"/>
+                    <input type="text" value={this.state.searchVal}/>
                     </div>
                 </form>
             </div>
