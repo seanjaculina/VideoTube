@@ -4,6 +4,7 @@ import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import Footer from './footer';
+import Header from './Header';
 class App extends React.Component{
 
     state = {
@@ -36,6 +37,7 @@ class App extends React.Component{
     render(){
         return (
             <div className="ui container">
+                <Header/>
                 <SearchBar onFormSubmit={this.onTermSubmit}/>
                 <div className="ui grid">
                     <div className="ui row">
