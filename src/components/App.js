@@ -3,7 +3,7 @@ import youtube from '../apis/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
-
+import Footer from './footer';
 class App extends React.Component{
 
     state = {
@@ -49,7 +49,9 @@ class App extends React.Component{
                             </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
+
         )
     };
 
