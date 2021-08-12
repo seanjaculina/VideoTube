@@ -29,7 +29,7 @@ class App extends React.Component{
     };
 
     componentDidMount(){
-        this.onTermSubmit('TNT overtime');
+        this.onTermSubmit('Kobe Bryant');
     }
 
 
